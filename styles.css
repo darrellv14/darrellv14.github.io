@@ -1,0 +1,123 @@
+:root {
+  --fwregular: 500;
+  --fwsemibold: 600;
+  --fwbold: 700;
+}
+
+body {
+  font-family: "Inter";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", "Open Sans", sans-serif;
+  font-weight: var(--fwsemibold);
+}
+
+p {
+  font-family: "Inter", "Open Sans", sans-serif;
+  font-weight: var(--fwsemibold);
+  font-size: 18px;
+}
+
+.btn {
+  font-family: "Inter", "Open Sans", sans-serif;
+  font-weight: var(--fwregular);
+}
+
+.webdev {
+  font-weight: var(--fwregular);
+}
+
+.navbar-brand {
+  font-weight: var(--fwbold);
+  font-size: x-large;
+}
+
+.nav-link {
+  font-weight: var(--fwregular);
+}
+
+.hero {
+  background-color: #222831;
+}
+
+.portfolio {
+  background-color: #393E46;
+}
+
+.its {
+  color: lightblue;
+}
+
+.contact h6 {
+  color: #10B981;
+}
+
+.contact p {
+  color: slategray;
+}
+
+
+.about {
+  background-color: #dfe3e7;
+}
+
+.about h6 {
+  font-family: "Inter", "Open Sans", sans-serif;
+  font-weight: var(--fwbold);
+  color: #00be7f;
+}
+
+.about h2 {
+  font-family: "Inter", "Open Sans", sans-serif;
+  font-weight: var(--fwbold);
+}
+
+.about p {
+  font-family: "Inter", "Open Sans", sans-serif;
+  font-weight: var(--fwregular);
+  font-size: 16px;
+  color: #222831;
+}
+
+.center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputform {
+  background-color: #E2E8F0;
+}
+
+.labelform {
+  font-family: "Inter", "Open Sans", sans-serif;
+  font-weight: var(--fwsemibold);
+  color: #10B981;
+}
+
+.card-title {
+  color: #10B981;
+}
+
+.card-text {
+  font-weight: var(--fwregular);
+}
+
+#introduce {
+  color: #EAEAEA;
+}
+
+#name {
+  color: #EEEEEE;
+}
+
+#major {
+  color: #10B981;
+  font-size: 20px;
+}
