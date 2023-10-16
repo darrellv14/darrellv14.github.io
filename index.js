@@ -54,8 +54,7 @@ function buatLink() {
   isiPesan = isiPesan.join("%0A")
   link += ("&text=" + perkenalan + isiPesan);
 
-  document.getElementById("validasimessage").innerHTML = "<a class='card alert alert-success mb-3' href='" +
-        link + "' target='_blank'>" + "Click di sini" + "</a>";
+  document.getElementById("validasimessage").innerHTML = "<a class='card alert alert-success mb-3' href='" + link + "' target='_blank'>" + "Click di sini" + "</a>";
 }
 
 function validasi() {

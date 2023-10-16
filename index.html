@@ -292,80 +292,82 @@
             <h1>Contact Darrell</h1>
             <p>Last but not least, don't hesitate to reach me out.</p>
           </div>
-          <form id="contact-form">
-            <div class="form-group row">
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6 mb-3">
-                <label for="namadepan" class="labelform">First Name :</label>
-                <input type="text" id="namadepan" class="form-control form-control-md border-0 inputform" placeholder="Nama Depan"/>
+          <section id="form">
+            <form id="contact-form" action="" >
+              <div class="form-group row">
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="namadepan" class="labelform">First Name :</label>
+                  <input type="text" id="namadepan" class="form-control form-control-md border-0 inputform" placeholder="Nama Depan"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasidepan"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="namabelakang" class="labelform">Last Name :</label>
+                  <input type="text" id="namabelakang" class="form-control form-control-md border-0 inputform" placeholder="Nama Belakang"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasibelakang"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+                
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="nrp" class="labelform">NRP :</label>
+                  <input type="text" id="nrp" class="form-control form-control-md border-0 inputform" placeholder="NRP ITS"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasinrp"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="nomor" class="labelform">Nomor WA :</label>
+                  <input type="text" id="nomor" class="form-control form-control-md border-0 inputform" placeholder="Mulai dengan +628"/>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <h1 id="validasinomor"></h1>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <label for="pesan" class="labelform">Message :</label>
+                  <textarea type="text" id="pesan" rows="4" class="form-control form-control-md border-0 inputform" placeholder="Tuliskan pesanmu di sini!"></textarea>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6 mb-3">
+                  <button onclick="validasi()" type="button" class="btn btn-success">Whatsapp Saya!</button>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
+  
+                <div class="col-md-2 col-lg-3"></div>
+                <div class="col-12 col-md-8 col-lg-6">
+                  <div id="validasimessage"></div>
+                </div>
+                <div class="col-md-2 col-lg-3"></div>
               </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6">
-                <h1 id="validasidepan"></h1>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6 mb-3">
-                <label for="namabelakang" class="labelform">Last Name :</label>
-                <input type="text" id="namabelakang" class="form-control form-control-md border-0 inputform" placeholder="Nama Belakang"/>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6">
-                <h1 id="validasibelakang"></h1>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-              
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6 mb-3">
-                <label for="nrp" class="labelform">NRP :</label>
-                <input type="text" id="nrp" class="form-control form-control-md border-0 inputform" placeholder="NRP ITS"/>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6">
-                <h1 id="validasinrp"></h1>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6 mb-3">
-                <label for="nomor" class="labelform">Nomor WA :</label>
-                <input type="text" id="nomor" class="form-control form-control-md border-0 inputform" placeholder="Mulai dengan +628"/>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6">
-                <h1 id="validasinomor"></h1>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6 mb-3">
-                <label for="pesan" class="labelform">Message :</label>
-                <textarea type="text" id="pesan" rows="4" class="form-control form-control-md border-0 inputform" placeholder="Tuliskan pesanmu di sini!"></textarea>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6 mb-3">
-                <button onclick="validasi()" class="btn btn-success">Whatsapp Saya!</button>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-
-              <div class="col-md-2 col-lg-3"></div>
-              <div class="col-12 col-md-8 col-lg-6">
-                <div id="validasimessage"></div>
-              </div>
-              <div class="col-md-2 col-lg-3"></div>
-            </div>
-          </form>
+            </form>
+          </section>
         </div>
       </div>
       <!-- Form Validasi dan kirim ke Whatsapp End -->
