@@ -166,7 +166,7 @@ p {
   background-color: #E2E8F0;
 }
 
-.labelform {
+.works, .labelform {
   font-family: "Inter", "Open Sans", sans-serif;
   font-weight: var(--fwsemibold);
   color: #10B981;
@@ -221,7 +221,7 @@ p {
 
 .services,
 .servicescontainer {
-  background-color: #dfe3e7;
+  background-color: #E2E8F0;
 }
 
 .card-title {
