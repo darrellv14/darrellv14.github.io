@@ -219,12 +219,9 @@ p {
   }
 }
 
-.services {
-  background-color: #D2E0FB;
-}
-
+.services,
 .servicescontainer {
-  background-color: #f8eafd;
+  background-color: #dfe3e7;
 }
 
 .card-title {
@@ -251,4 +248,16 @@ p {
 .validasimessage a {
   font-weight: var(--fwsemibold);
   font-size: 10px;
+}
+
+.footerdarrell {
+  background-color: #10B981;
+}
+
+.footerdarrell h4 {
+  font-weight: var(--fwbold);
+}
+
+.copyright {
+  background-color: #0a6f4d;
 }
